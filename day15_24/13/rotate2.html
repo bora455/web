@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>회전</title>
+	<style>
+		.origin {
+			width: 210px;
+			height: 200px;
+			margin: 56px;
+			border: 1px solid black;
+			float: left;
+			-webkit-perspective: 200px;
+			-ms-perspective: 200px;
+			-moz-perspective: 200px;
+			perspective: 200px;
+		}
+		.ratatex {
+			-webkit-transform: rotateX(45deg);
+			-ms-transform: rotateX(45deg);
+			-moz-transform: rotateX(45deg);
+			-o-transform: rotateX(45deg);
+			transform: rotateX(45deg);
+		}
+		.ratatey {
+			-webkit-transform: rotateY(45deg);
+			-ms-transform: rotateY(45deg);
+			-moz-transform: rotateY(45deg);
+			-o-transform: rotateY(45deg);
+			transform: rotateY(45deg);
+		}
+		.ratatez {
+			-webkit-transform: rotateZ(45deg);
+			-ms-transform: rotateZ(45deg);
+			-moz-transform: rotateZ(45deg);
+			-o-transform: rotateZ(45deg);
+			transform: rotateZ(45deg);
+		}
+		.ratatexyz {
+			-webkit-transform: rotate3d(2.5, 1.2, -1.5, 45deg);
+			-ms-transform: rotate3d(2.5, 1.2, -1.5, 45deg);
+			-moz-transform: rotate3d(2.5, 1.2, -1.5, 45deg);
+			-o-transform: rotate3d(2.5, 1.2, -1.5, 45deg);
+			transform: rotate3d(2.5, 1.2, -1.5, 45deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="origin">
+		<div class="rotatex">
+			<img src="C:/web/images/fruit.png">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="rotatey">
+			<img src="C:/web/images/fruit.png">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="rotatez">
+			<img src="C:/web/images/fruit.png">
+		</div>
+	</div>
+	<div class="origin">
+		<div class="rotatexyz">
+			<img src="C:/web/images/fruit.png">
+		</div>
+	</div>
+</body>
+</html>

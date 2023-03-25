@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>원근감</title>
+	<style>
+		#no-pers, #pers {
+			width: 152px;
+			height: 180px;
+			margin: 30px;
+			border: 1px solid black;
+			float: left;
+		}
+		.rotatex img {
+			transform: rotateX(50deg);
+		}
+		#pers {
+			perspective: 300px;
+		}
+	</style>
+</head>
+<body>
+	<h4>원본 이미지</h4>
+	<div>
+		<img src="C:/web/images/fruit.png" alt="">
+	</div>
+	<div id="no-pers">
+		<div class="rotatex">
+			<img src="C:/web/images/fruit.png" alt="">
+		</div>
+	</div>
+	<div id="pers">
+		<div class="rotatex">
+			<img src="C:/web/images/fruit.png" alt="">
+		</div>
+	</div>
+</body>
+</html>
